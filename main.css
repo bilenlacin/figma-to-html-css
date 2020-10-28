@@ -1,7 +1,34 @@
-.header {
-    display: grid;
-    grid-template-columns: 33% 33% 34%;
+.container{
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+   
 }
+
 .logoBox{
+width: 149px;
+height: 36,23px;
+display: flex
+;
+}
+.siteName{
+margin-left: 10px;
+}
+
+
+ul{
+margin-left: 157px;
+display: flex;
+list-style-type: none;
+}
+li{
+    margin-left: 40px;
+}
+.sign{
+
+    margin-left: 150px;
     display: flex;
 }
+.
