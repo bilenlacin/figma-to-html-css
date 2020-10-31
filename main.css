@@ -1,9 +1,16 @@
+body{
+
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+}
+
 .container{
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
     display: flex;
     align-items: center;
+    margin-top: 50px;
    
 }
 
@@ -15,6 +22,7 @@ display: flex
 }
 .siteName{
 margin-left: 10px;
+font-size: 20px;
 }
 
 
@@ -24,11 +32,86 @@ display: flex;
 list-style-type: none;
 }
 li{
+    color: #4F5665;
     margin-left: 40px;
 }
 .sign{
 
     margin-left: 150px;
     display: flex;
+    
 }
-.
+.signIn{
+
+    margin-right: 30xp;
+}
+
+
+.signUp {
+   
+    background-color: white;
+    color: #F53855;
+    font-weight: bold;
+    border-color: #F53855;
+    border-radius: 20px;
+    width: 150px;
+    height: 45px;
+    margin-left: 30px;
+}
+.containerIntro{
+    margin-top: 101px;
+    max-width: 1200px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.introTitle{
+   font-size: 50px;
+   font-weight: 500;
+    width: 555px;
+    height: 140px;
+    line-height: 70px;
+    color: #0B132A;
+}
+.intro-text{
+    line-height: 30px;
+    width: 523px;    
+    color: #4F5665;
+}
+.containerIntro > img{
+    margin-left: 30px;
+}
+
+.getStarted{
+    
+    width: 250px;
+    height: 60px;
+    background: #F53838;
+    border-radius: 10px;
+    color: white;
+    border: none;
+    font-weight: bold;
+    line-height: 25px;
+    margin-top: 50px;
+    
+}
+.backroundGetStarted{
+
+    position: absolute;
+width: 211.83px;
+height: 60px;
+
+margin-top: -13px;
+margin-left: 16px;
+width: 211.83px;
+height: 40px;
+background: rgba(245, 56, 56, 0.35);
+filter: blur(20px);
+border-radius: 10px;
+}
+
+
+
+
+
