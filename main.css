@@ -4,7 +4,7 @@ body{
     font-size: 16px;
 }
 
-.container{
+.containerheader{
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
@@ -111,7 +111,33 @@ filter: blur(20px);
 border-radius: 10px;
 }
 
-
-
-
-
+.containerthird{
+    
+    max-width: 1150px;
+    height: 200px;
+   top: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    display: grid;
+    text-align: center;
+   
+}
+.container-third{
+    display: grid;
+    grid-template-columns: repeat(3, 150px); /* CHANGED */
+    margin: auto;
+    grid-gap: 20px; /* ADDED */
+  }
+  
+  
+  .block:after { /* ADDED */
+    display: flex;
+    border-left: 3px solid black;
+    right: -10px; /* adjust this */
+    height: 80%; /* adjust this */
+    
+  }
+  
+  .block:last-child:after { /* ADDED */
+    display: none; /* Hide the divider for the last block */
+  }
