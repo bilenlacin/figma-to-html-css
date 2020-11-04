@@ -1,17 +1,17 @@
 body{
 
-    font-family: 'Rubik', sans-serif;
-    font-size: 16px;
+font-family: 'Rubik', sans-serif;
+font-size: 16px;
 }
 
 .containerheader{
-    max-width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
-    display: flex;
-    align-items: center;
-    margin-top: 50px;
-   
+max-width: 1200px;
+margin-left: auto;
+margin-right: auto;
+display: flex;
+align-items: center;
+margin-top: 50px;
+
 }
 
 .logoBox{
@@ -32,76 +32,75 @@ display: flex;
 list-style-type: none;
 }
 li{
-    color: #4F5665;
-    margin-left: 40px;
+color: #4F5665;
+margin-left: 40px;
 }
 .sign{
 
-    margin-left: 150px;
-    display: flex;
-    
+margin-left: 150px;
+display: flex;
+
 }
 .signIn{
 
-    margin-right: 30xp;
+margin-right: 30xp;
 }
 
 
 .signUp {
-   
-    background-color: white;
-    color: #F53855;
-    font-weight: bold;
-    border-color: #F53855;
-    border-radius: 20px;
-    width: 150px;
-    height: 45px;
-    margin-left: 30px;
+
+background-color: white;
+color: #F53855;
+font-weight: bold;
+border-color: #F53855;
+border-radius: 20px;
+width: 150px;
+height: 45px;
+margin-left: 30px;
 }
 .containerIntro{
-    margin-top: 101px;
-    max-width: 1200px;
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    
+margin-top: 101px;
+max-width: 1200px;
+display: flex;
+margin-left: auto;
+margin-right: auto;
+
 }
 .introTitle{
-   font-size: 50px;
-   font-weight: 500;
-    width: 555px;
-    height: 140px;
-    line-height: 70px;
-    color: #0B132A;
+font-size: 50px;
+font-weight: 500;
+width: 555px;
+height: 140px;
+line-height: 70px;
+color: #0B132A;
 }
 .intro-text{
-    line-height: 30px;
-    width: 523px;    
-    color: #4F5665;
+line-height: 30px;
+width: 523px;    
+color: #4F5665;
 }
 .containerIntro > img{
-    margin-left: 30px;
+margin-left: 30px;
 }
 
 .getStarted{
-    
-    width: 250px;
-    height: 60px;
-    background: #F53838;
-    border-radius: 10px;
-    color: white;
-    border: none;
-    font-weight: bold;
-    line-height: 25px;
-    margin-top: 50px;
-    
+
+width: 250px;
+height: 60px;
+background: #F53838;
+border-radius: 10px;
+color: white;
+border: none;
+font-weight: bold;
+line-height: 25px;
+margin-top: 50px;
+
 }
 .backroundGetStarted{
 
-    position: absolute;
+position: absolute;
 width: 211.83px;
 height: 60px;
-
 margin-top: -13px;
 margin-left: 16px;
 width: 211.83px;
@@ -112,32 +111,41 @@ border-radius: 10px;
 }
 
 .containerthird{
-    
-    max-width: 1150px;
-    height: 200px;
-   top: 10px;
-    margin-right: auto;
-    margin-left: auto;
-    display: grid;
-    text-align: center;
-   
+    position: relative;
+margin-top: 50px;
+max-width: 1150px;
+height: 125px;
+margin-right: auto;
+margin-left: auto;
+display: grid;
+grid-template-columns: repeat(3, 380px);
+
 }
-.container-third{
-    display: grid;
-    grid-template-columns: repeat(3, 150px); /* CHANGED */
-    margin: auto;
-    grid-gap: 20px; /* ADDED */
-  }
-  
-  
-  .block:after { /* ADDED */
-    display: flex;
-    border-left: 3px solid black;
-    right: -10px; /* adjust this */
-    height: 80%; /* adjust this */
+.containerthird >div {
     
-  }
-  
-  .block:last-child:after { /* ADDED */
-    display: none; /* Hide the divider for the last block */
-  }
+    margin-left: 25%;
+    display: flex;
+    align-items: center;
+    border-right: 1px solid rgb(0,0,0,0.3);
+           
+}
+
+.block{
+margin-left: 30px;
+
+}
+.backroundcontainerthird{
+    position: absolute;
+    width: 1068.84px;
+    height: 189.22px;
+    left: 500px;
+    top: 702px;
+    
+    background: #0D1025;
+    opacity: 0.06;
+    filter: blur(114px);
+    border-radius: 10px;
+}
+.block:nth-last-child(){
+    border-right: 0;
+}
