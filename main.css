@@ -132,8 +132,12 @@ grid-template-columns: repeat(3, 380px);
 
 .block{
 margin-left: 30px;
-
 }
+
+.containerthird >div :nth-child(6){
+border-right: none;
+}
+
 .backroundcontainerthird{
     position: absolute;
     width: 1068.84px;
@@ -146,6 +150,19 @@ margin-left: 30px;
     filter: blur(114px);
     border-radius: 10px;
 }
-.block:nth-last-child(){
-    border-right: 0;
+.containerfourth{ 
+    max-width: 1200px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+.container-fourth > ul{
+    list-style-image: url('tick.svg');
+    display: inline;
+    margin-left: none;
+}
+.container-fourth {
+    width: 427px;
+    height: 365px;
+    margin-left: 170px;
 }
