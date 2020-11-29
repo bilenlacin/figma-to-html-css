@@ -227,5 +227,253 @@ margin-left: 30px;
     border: 2px solid #DDDDDD;
     box-sizing: border-box;
     border-radius: 10px;
+
+    line-height: 40px;
+    
+    
+}
+
+.planContainer >div>ul> li{
+    list-style-type: none;
+    list-style-image: url('tickvector.svg');
+    margin-left: 40px;
+}
+.planContainer >div>img{
+    margin-left: 92.55px;
+    margin-top: 80px;
+
+}
+.planContainer >div>h2{
+   text-align: center;
+}
+.select{
+text-align: center;
+}
+.selectButton{
+
+    width: 177.88px;
+    height: 45px;
+    border-radius: 50px;
+    color:#F53838;
+    border-color: #F53838;
+    font-weight: bold;
+    font-size: 16px;
+    background-color: white;
+    
+}
+.select>p{
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+
+}
+
+.selectButtonPremium{
+
+    width: 177.88px;
+    height: 45px;
+    border-radius: 50px;
+    color:white;
+    border-color: #F53838;
+    font-weight: bold;
+    font-size: 16px;
+    background-color:#F53838;
+}
+.HugeGlobal{
+
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;  
+}
+.HugeGlobal > h2{
+
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;  
+    width: 383.41px;
+    height: 100px;
+    
+
+   
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 50px;
+    /* or 143% */
+
+    text-align: center;
+
+    color: #0B132A;
+}
+
+.HugeGlobal >p {
+
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;  
+    width: 555px;
+    height: 60px;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.happyCustomersText>p {
+
+    max-width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+
+    text-align: center;
+    width: 555px;
+    height: 60px;
+    color: #4F5665;
+}
+.happyCustomersText>h2{
+    max-width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+
+    width: 447.81px;
+    height: 100px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 50px;
+}
+
+.customerComments{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 50px;   
+    padding: 60px;
+ 
+ 
+}
+.firstComment{
+    
+    width: 400px;
+    height: 230px;
+    border: 2px solid #F53838;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+
+.secondComment{
+    width: 400px;
+    height: 230px;
+    border:2px solid #DDDDDD;
+    border-radius: 10px;
+    padding: 30px;
+}
+.thirdComment{
+
+    width: 400px;
+    height: 230px;
+    border:2px solid #DDDDDD;
+    border-radius: 10px;
+    padding: 30px;
+}
+.userInfo{
+
+    display: flex;
+    
+}
+.rates{
+    display: flex;
+    text-align: center;
+    margin:auto;
+   
+}
+.user{
+    margin-left: 30px;
+    width: 300px;
+    line-height: 10px;
+}
+.comments{
+
+    width: 340px;
+    height: 100px;
+    font-size: 16px;
+    line-height: 30px;
+    color: #0B132A;
+    margin-top: 30px;
+}
+.subscribeButton{
+    width: 250px;
+    height: 60px;
+    background: #F53838;
+    border-radius: 10px;
+    color: white;
+    border: none;
+    font-weight: bold;
+    line-height: 25px;
+    margin-top: 50px;
+    margin-left: auto;
+    
+    
+}
+.subscribe{
+
+    max-width: 1200px;
+    height: 233px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+.subscribeText>h2{
+
+    width: 371.61px;
+    height: 80px;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 45px;
+}
+.socialNetwork{
+    width: 340px;
+    position: absolute;
+   
+}
+.siteMap{
+
+    display: flex;
+  margin-left: 600px;
+    
+}
+.siteMap>ul>li{
+
+    margin-left: 130px;
+    list-style-type: none;
+    font-size: 16px;
+    line-height: 30px;
+    color: #4F5665;
+    width: 102px;
+}
+
+.pageEnd{
+    
+    
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    max-width: 1200px;
+   
+}
+.pageEndBackround{
+
+    position: absolute;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 1300px;
+    
+    z-index: -1;
+    background: #F6F6F6;    /*#F6F6F6;*/
+    border-radius: 10px;
+    opacity: 50%;
     
 }
