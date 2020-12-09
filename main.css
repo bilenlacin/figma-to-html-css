@@ -477,3 +477,95 @@ text-align: center;
     opacity: 50%;
     
 }
+ @media(max-width: 700px){
+    .containerheader {
+            display: block;
+            grid-template-columns: 1fr;
+            text-align: left
+            
+        }
+    .header-menu ul {
+            display: grid;           
+            grid-template-columns: 1fr ;
+            margin-left: -70px;
+            gap: 10px;
+           
+            
+                    }
+        .sign{
+            display: flex;            
+            margin-left:20px;
+            
+        }
+        .header-menu ul li {
+            grid-template-columns: 1fr;
+            grid-template-areas: 
+            'introText';
+            font-size: 1.2rem;
+            background: #4F5665;              
+            color: #DDDDDD;
+            padding: 0.2rem;
+           
+        }
+        .introText h1{
+            font-size: 2.5rem;
+          
+        }
+        .introText p{
+            font-size: 1.rem;
+          
+        }
+        .containerIntro{
+            grid-template-columns: 1fr;
+            display: block;
+        }
+        .containerIntro h1{
+
+            font-size: 2rem;
+        }
+        .containerIntro p{
+
+            font-size: 1rem;
+        }
+        .containerIntro img{
+            width: 100%;
+            height: 300px;
+            margin-left: 0px;
+            
+           
+        }
+        .containerthird {
+         grid-template-columns: 1fr 1fr 1fr 100%;
+         
+        }
+        .containerthird >div {
+    
+            margin-left: 10%;
+               
+        }    
+        .containerfourth {
+          
+           
+            display: block;
+            
+        }
+        .containerfourth img {
+            width: 100%;
+            height: 400px;
+       
+        }
+        .container-fourth{
+            margin-left: 0px;
+            grid-template-columns: 1fr;
+            width: 100%;
+        }
+        .planContainer{
+            display: block;
+            margin-left: 15%;
+        }
+        .containerthird >div:nth-child(-n+2) {
+             border-right: none;
+        }
+       
+
+ }
