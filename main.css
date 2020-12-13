@@ -281,7 +281,7 @@ text-align: center;
 }
 .HugeGlobal{
 
-    max-width: 1200px;
+    max-width: 100%;
     margin-left: auto;
     margin-right: auto;  
 }
@@ -317,10 +317,13 @@ text-align: center;
     line-height: 30px;
     text-align: center;
 }
+.HugeGlobal > .Sites img{
+    margin-left: 2% ;
+}   
 
 .happyCustomersText>p {
 
-    max-width: 1200px;
+    max-width: 100%;
     margin-right: auto;
     margin-left: auto;
 
@@ -330,7 +333,7 @@ text-align: center;
     color: #4F5665;
 }
 .happyCustomersText>h2{
-    max-width: 1200px;
+    max-width: 100%;
     margin-right: auto;
     margin-left: auto;
 
@@ -345,18 +348,18 @@ text-align: center;
 .customerComments{
     display: grid;
     grid-template-columns: auto auto auto;
-    max-width: 1200px;
+    max-width: 100%;
     margin-left: auto;
     margin-right: auto;
-    gap: 50px;   
-    padding: 60px;
+    gap: 10px;   
+    padding: 10px;
  
  
 }
 .firstComment{
     
-    width: 400px;
-    height: 230px;
+    width: 70%;
+   
     border: 2px solid #F53838;
     border-radius: 10px;
     padding: 30px;
@@ -364,16 +367,14 @@ text-align: center;
 
 
 .secondComment{
-    width: 400px;
-    height: 230px;
+    width: 70%;
     border:2px solid #DDDDDD;
     border-radius: 10px;
     padding: 30px;
 }
 .thirdComment{
 
-    width: 400px;
-    height: 230px;
+    width: 70%;
     border:2px solid #DDDDDD;
     border-radius: 10px;
     padding: 30px;
@@ -441,12 +442,12 @@ text-align: center;
 .siteMap{
 
     display: flex;
-  margin-left: 600px;
+    margin-left: 60%;
     
-}
+} 
 .siteMap>ul>li{
 
-    margin-left: 130px;
+    margin-left: 60%;
     list-style-type: none;
     font-size: 16px;
     line-height: 30px;
@@ -460,9 +461,9 @@ text-align: center;
     margin-right: auto;
     margin-left: auto;
     display: flex;
-    max-width: 1200px;
+    max-width: 100%;
    
-}
+}  
 .pageEndBackround{
 
     position: absolute;
@@ -566,6 +567,45 @@ text-align: center;
         .containerthird >div:nth-child(-n+2) {
              border-right: none;
         }
-       
+       .HugeGlobal h2 {
+        width: auto;
+        font-size: 1.8rem;
+       }
+       .HugeGlobal p {
+        width: auto;
+        font-size: 1rem;
+       }
+       .HugeGlobal img{
 
- }
+            max-width: 100%;
+            
+        }   
+        .HugeGlobal > .Sites img{
+            display:none ;
+        }   
+        .customerComments {
+            display: block;
+           
+        }
+        .comments{
+            font-size: 0.8rem;
+        }
+        .pageEnd{
+            display: block;
+            
+        }
+        .siteMap{
+
+            display: flex;
+            margin-left: 0%;
+                        
+        } 
+        .siteMap ul{
+
+        margin-top: 60%;
+        margin-left: 0%;   
+        padding: 0%;            
+        } 
+    }    
+        
+
